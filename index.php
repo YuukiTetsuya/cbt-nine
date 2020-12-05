@@ -2,6 +2,8 @@
 // composer 読み込む
 require_once './vendor/autoload.php';
 
+    SassCompiler::run("assets/scss/", "assets/css/");
+
 // Twig 初期化
 $loader = new \Twig\Loader\FilesystemLoader('./view');
 
@@ -10,8 +12,8 @@ $twig = new \Twig\Environment($loader, [
 ]);
 
 $data = array(
-    'title' => 'sample',
-    'message'  => 'My Webpage!',
+    'title' => 'cbt-nine',
+    'message'  => '演習',
 );
 
 // render 出力

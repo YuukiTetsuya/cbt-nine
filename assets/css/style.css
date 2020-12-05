@@ -1,0 +1,18 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #fff;
+  background-color: #bf4080;
+}
+.main p {
+  /* コメント（コンパイル後も残る） */
+  font-size: 30px;
+  text-align: center;
+}
+.main p {
+  margin-top: 100px;
+}
+.rotate {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}

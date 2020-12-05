@@ -37,17 +37,22 @@ class __TwigTemplate_bb313cfea9d4466c839451667d8be4fb3cbddaaf2661775df6b0e96c532
         echo "<html>
 
 <head>
+    <link rel=\"stylesheet\" href=\"assets/css/style.css\" type=\"text/css\">
+
     <title>";
-        // line 4
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "title", [], "any", false, false, false, 4), "html", null, true);
+        // line 6
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "title", [], "any", false, false, false, 6), "html", null, true);
         echo "</title>
 </head>
 
 <body>
     <h1>";
-        // line 8
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "message", [], "any", false, false, false, 8), "html", null, true);
+        // line 10
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "message", [], "any", false, false, false, 10), "html", null, true);
         echo "</h1>
+    <div class=\"main\">
+        <p class=\"rotate\">hello php-sass</p>
+    </div>
 </body>
 
 </html>";
@@ -65,7 +70,7 @@ class __TwigTemplate_bb313cfea9d4466c839451667d8be4fb3cbddaaf2661775df6b0e96c532
 
     public function getDebugInfo()
     {
-        return array (  49 => 8,  42 => 4,  37 => 1,);
+        return array (  51 => 10,  44 => 6,  37 => 1,);
     }
 
     public function getSourceContext()
