@@ -1,5 +1,0 @@
-PHP Warning:  require_once(/vendor/autoload.php): Failed to open stream: No such file or directory in /var/www/html/index.php on line 3
-PHP Fatal error:  Uncaught Error: Failed opening required '/vendor/autoload.php' (include_path='.:/usr/share/pear:/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/html/index.php:3
-Stack trace:
-#0 {main}
-  thrown in /var/www/html/index.php on line 3
