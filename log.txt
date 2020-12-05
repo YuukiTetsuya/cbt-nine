@@ -1,0 +1,8 @@
+PHP Warning:  require_once(HTTP/Request2/Exception.php): Failed to open stream: No such file or directory in /var/www/html/vendor/pear/http_request2/HTTP/Request2.php on line 29
+PHP Fatal error:  Uncaught Error: Failed opening required 'HTTP/Request2/Exception.php' (include_path='/var/www/html/vendor/twig/twig:/var/www/html/vendor/twig/twig:/var/www/html/vendor/pear/net_url2:/var/www/html/vendor/pear/pear_exception:.:/usr/share/pear:/usr/share/php:/usr/share/pear:/usr/share/php') in /var/www/html/vendor/pear/http_request2/HTTP/Request2.php:29
+Stack trace:
+#0 /var/www/html/vendor/composer/ClassLoader.php(444): include()
+#1 /var/www/html/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile()
+#2 /var/www/html/test.php(5): Composer\Autoload\ClassLoader->loadClass()
+#3 {main}
+  thrown in /var/www/html/vendor/pear/http_request2/HTTP/Request2.php on line 29
