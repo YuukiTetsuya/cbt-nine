@@ -11,5 +11,14 @@ require 'vendor/autoload.php';
     <div class="main">
         <p class="rotate">hello php-sass</p>
     </div>
+    <?php 
+    function hoge($foo = 'foo', $bar= false, $baz=0, $qux = ''){
+        echo $foo."<br/>";
+        echo $qux;
+    }
+    
+    hoge(qux: 'qux');
+    hoge(foo: 'foo2', qux: 'qux2');
+    ?>
 </body>
 </html>
