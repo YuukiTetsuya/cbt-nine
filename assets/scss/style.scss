@@ -2,24 +2,11 @@
 
 // コメント（コンパイル後残らない）
 
-%message { /* コメント（コンパイル後も残る） */
-  font-size: 10px * 3;  // オペレーター
-  text-align: center;
-}
-
-// ネスト
-.main {
-  p {
-    // 継承
-    @extend %message;
-    margin-top: 100px;
+nav{
+  nl {
+    color:red;
+  }
+  li {
+    color:blue;
   }
 }
-
-// ミックスイン
-@mixin transform($property) {
-  -webkit-transform: $property;
-  -ms-transform: $property;
-  transform: $property;
-}
-.rotate { @include transform(rotate(30deg)); }

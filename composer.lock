@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e43fc1f79944f7b07312da7898a683c",
+    "content-hash": "48937c5c56a31a9e82f55f8528644ed8",
     "packages": [
         {
             "name": "leafo/scssphp",
@@ -522,6 +522,67 @@
                 }
             ],
             "time": "2020-10-23T14:02:19+00:00"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "v4.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "reference": "7a6da5e3e7ad7c749dde806546a35d4d4259d965",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                },
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com/",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "support": {
+                "issues": "https://github.com/twbs/bootstrap/issues",
+                "source": "https://github.com/twbs/bootstrap/tree/v4-dev"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/bootstrap",
+                    "type": "open_collective"
+                }
+            ],
+            "time": "2020-05-12T17:44:42+00:00"
         },
         {
             "name": "twig/twig",

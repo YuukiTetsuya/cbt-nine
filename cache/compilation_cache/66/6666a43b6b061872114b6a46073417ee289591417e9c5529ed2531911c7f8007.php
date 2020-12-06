@@ -38,7 +38,7 @@ class __TwigTemplate_bb313cfea9d4466c839451667d8be4fb3cbddaaf2661775df6b0e96c532
 
 <head>
     <link rel=\"stylesheet\" href=\"assets/css/style.css\" type=\"text/css\">
-
+    <link rel=\"stylesheet\" href=\"vendor/twbs/bootstrap/dist/css/bootstrap.css\">
     <title>";
         // line 6
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "title", [], "any", false, false, false, 6), "html", null, true);
@@ -46,13 +46,26 @@ class __TwigTemplate_bb313cfea9d4466c839451667d8be4fb3cbddaaf2661775df6b0e96c532
 </head>
 
 <body>
-    <h1>";
+    <h1 class=\"h1\">";
         // line 10
         echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->source, ($context["data"] ?? null), "message", [], "any", false, false, false, 10), "html", null, true);
         echo "</h1>
     <div class=\"main\">
         <p class=\"rotate\">hello php-sass</p>
+        <p class=\"h1\">class=\"h1\"：サンプル</p>
     </div>
+    <button type=\"button\" data-toggle=\"modal\" data-target=\"#myModal\">I register !</button>
+
+    <div id=\"myModal\" class=\"modal hide fade\">
+        <!-- register form here -->
+        ddd
+        dd
+    </div>
+    <ul class=\"nav nav-tabs\">
+        <li class=\"nav-item\">
+            <a class=\"nav-link\">タブ1</a>
+        </li>
+    </ul>
 </body>
 
 </html>";

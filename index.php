@@ -8,7 +8,7 @@ require_once './vendor/autoload.php';
 $loader = new \Twig\Loader\FilesystemLoader('./view');
 
 $twig = new \Twig\Environment($loader, [
-    'cache' => './cache/compilation_cache',
+    'cache' => 'cache/compilation_cache',
 ]);
 
 $data = array(

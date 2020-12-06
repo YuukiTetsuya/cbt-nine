@@ -1,10 +1,1 @@
-// 変数
-$font-stack:    Helvetica, sans-serif;
-$color: #fff;
-$back-color: #BF4080;
-
-body {
-  font: 100% $font-stack;
-  color: $color;
-  background-color: $back-color;
-}
+  @import "vendor/twbs/bootstrap/scss/bootstrap";

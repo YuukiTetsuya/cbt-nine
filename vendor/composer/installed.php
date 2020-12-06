@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'f393d44e37953cfc68f19dceacecbfbb88596873',
+    'reference' => '72f27e8cdd062897f57299e05677edc7adf006c7',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'f393d44e37953cfc68f19dceacecbfbb88596873',
+      'reference' => '72f27e8cdd062897f57299e05677edc7adf006c7',
     ),
     'leafo/scssphp' => 
     array (
@@ -92,6 +92,15 @@
       ),
       'reference' => '39d483bdf39be819deabf04ec872eb0b2410b531',
     ),
+    'twbs/bootstrap' => 
+    array (
+      'pretty_version' => 'v4.5.0',
+      'version' => '4.5.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7a6da5e3e7ad7c749dde806546a35d4d4259d965',
+    ),
     'twig/twig' => 
     array (
       'pretty_version' => 'v3.1.1',
@@ -100,6 +109,13 @@
       array (
       ),
       'reference' => 'b02fa41f3783a2616eccef7b92fbc2343ffed737',
+    ),
+    'twitter/bootstrap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v4.5.0',
+      ),
     ),
   ),
 );
