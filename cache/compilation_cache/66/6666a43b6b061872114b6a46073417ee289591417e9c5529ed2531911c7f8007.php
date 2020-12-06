@@ -64,7 +64,7 @@ class __TwigTemplate_bb313cfea9d4466c839451667d8be4fb3cbddaaf2661775df6b0e96c532
                         Dropdown
                     </a>
                     <div class=\"dropdown-menu\" id=\"navbarDropdown\" aria-labelledby=\"navbarDropdown\">
-                        <a class=\"dropdown-item\" href=\"#\">Action</a>
+                        <a class=\"dropdown-item\" href=\"view/question.html\">Action</a>
                         <a class=\"dropdown-item\" href=\"#\">Another action</a>
                         <div class=\"dropdown-divider\"></div>
                         <a class=\"dropdown-item\" href=\"#\">Something else here</a>
